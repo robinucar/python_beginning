@@ -33,5 +33,9 @@ s = 'Hello, World!'
 # print(len(s))
 
 # Replace
-print(s.replace('World', 'everyone')) # output 'Hello, everyone!
+# print(s.replace('World', 'everyone')) # output 'Hello, everyone!
 
+# Count
+sub = 'h'
+print(s.count(sub)) # output 0 -case sensetive-
+print(s.count('H')) # output 1
