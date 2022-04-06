@@ -54,4 +54,10 @@ s = 'Hello, World!'
 # print(s.find('r')) # output 9
 
 # Is all alphanumeric
-print(s.isalnum()) # output false
+# print(s.isalnum()) # output false
+
+# Is all alphabetic
+print(s.isalpha()) # output false -empty space and , and ! - 
+
+s1 = 'HelloWorld'
+print(s1.isalpha()) # output true
