@@ -63,4 +63,4 @@ s = 'Hello, World!'
 # print(s1.isalpha()) # output true
 
 # Is all numeric
-print(s.isnumeric()) # output false
+# print(s.isnumeric()) # output false
