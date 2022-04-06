@@ -36,6 +36,10 @@ s = 'Hello, World!'
 # print(s.replace('World', 'everyone')) # output 'Hello, everyone!
 
 # Count
-sub = 'h'
-print(s.count(sub)) # output 0 -case sensetive-
-print(s.count('H')) # output 1
+# sub = 'h'
+# print(s.count(sub)) # output 0 -case sensetive-
+# print(s.count('H')) # output 1
+
+# Starts with
+print(s.startswith('hello')) # output false - case sensetive -
+print(s.startswith('Hello')) # output true
