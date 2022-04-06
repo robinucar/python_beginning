@@ -8,5 +8,8 @@
 
 fruits = ['Apples', 'Oranges', 'Grapes', 'Pears']
 
-# Get a value by index
-print(fruits[1]) # output: Oranges
+# # Get a value by index
+# print(fruits[1]) # output: Oranges
+
+# Get the length
+print(len(fruits)) # output: 4
