@@ -45,8 +45,12 @@ fruits_set = {'Apples', 'Oranges', 'Mango'}
 
 # or using constructor
 
-fruits_set1 = set(('Apples', 'Oranges', 'Mango'))
+# fruits_set1 = set(('Apples', 'Oranges', 'Mango'))
 
-print(fruits_set, type(fruits_set))
+# print(fruits_set, type(fruits_set))
 
-print(fruits_set1, type(fruits_set1))
+# print(fruits_set1, type(fruits_set1))
+
+# Check if an element is exist inside the set
+
+print('Apples' in fruits_set) # output: True
