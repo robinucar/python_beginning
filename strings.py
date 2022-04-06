@@ -21,5 +21,8 @@ s = 'Hello, World!'
 # print(s.capitalize())
 
 # Make all Uppercase
+# print(s.upper())
 
-print(s.upper())
+# Make all lower
+print(s.lower())
+
