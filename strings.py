@@ -45,4 +45,7 @@ s = 'Hello, World!'
 # print(s.startswith('Hello')) # output true
 
 # Ends with
-print(s.endswith('!')) # output true
+# print(s.endswith('!')) # output true
+
+# Split into a list
+print(s.split()) # output ['Hello,', 'World!']
