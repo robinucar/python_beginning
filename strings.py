@@ -27,5 +27,8 @@ s = 'Hello, World!'
 # print(s.lower())
 
 # Swap case
-print(s.swapcase())
+# print(s.swapcase())
+
+# Get length
+print(len(s))
 
