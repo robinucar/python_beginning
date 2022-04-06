@@ -19,4 +19,8 @@ fruits = ('Apples', 'Oranges', 'Grapes')
 
 # Get value by index
 
-print(fruits[1])
+# print(fruits[1])
+
+# Cannot change the value
+fruits[0] = 'Pears'
+print(fruits) # output: TypeError: 'tuple' object does not support item assignment
