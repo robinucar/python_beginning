@@ -48,4 +48,7 @@ s = 'Hello, World!'
 # print(s.endswith('!')) # output true
 
 # Split into a list
-print(s.split()) # output ['Hello,', 'World!']
+# print(s.split()) # output ['Hello,', 'World!']
+
+# Find the Position
+print(s.find('r')) # output 9
