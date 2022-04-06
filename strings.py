@@ -18,4 +18,8 @@ age = 34
 
 s = 'Hello, World!'
 # Capitalize String
-print(s.capitalize())
+# print(s.capitalize())
+
+# Make all Uppercase
+
+print(s.upper())
