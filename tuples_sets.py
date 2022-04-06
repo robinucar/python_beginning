@@ -53,4 +53,9 @@ fruits_set = {'Apples', 'Oranges', 'Mango'}
 
 # Check if an element is exist inside the set
 
-print('Apples' in fruits_set) # output: True
+# print('Apples' in fruits_set) # output: True
+
+# Add an element to the set
+
+fruits_set.add('Grape')
+print('Grape' in fruits_set) # output: True
