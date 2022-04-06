@@ -24,6 +24,11 @@ fruits = ['Apples', 'Oranges', 'Grapes', 'Pears']
 # print(fruits) # output: ['Apples', 'Oranges', 'Pears']
 
 # Insert into position
-fruits.insert(2, 'Strawberries')
-print(fruits) # output ['Apples', 'Oranges', 'Strawberries', 'Grapes', 'Pears']
+# fruits.insert(2, 'Strawberries')
+# print(fruits) # output ['Apples', 'Oranges', 'Strawberries', 'Grapes', 'Pears']
+
+# Remove with pop
+
+fruits.pop(2)
+print(fruits)
 
