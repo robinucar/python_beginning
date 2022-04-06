@@ -9,4 +9,8 @@ age = 34
 
 # Arguments by position
 
-print('My name is {name} and I am {age} years old...'.format(name = name, age = age))
+# print('My name is {name} and I am {age} years old...'.format(name = name, age = age))
+
+# F-Strings (3.6+ versions)
+
+print(f'My name is {name} and I am {age} years old...')
