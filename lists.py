@@ -40,6 +40,11 @@ fruits = ['Apples', 'Oranges', 'Grapes', 'Pears']
 # fruits.sort
 # print(fruits) # output: ['Apples', 'Oranges', 'Grapes', 'Pears']
 
-#Reverse Sort
-fruits.sort(reverse=True)
-print(fruits) # output: ['Pears', 'Oranges', 'Grapes', 'Apples']
+# #Reverse Sort
+# fruits.sort(reverse=True)
+# print(fruits) # output: ['Pears', 'Oranges', 'Grapes', 'Apples']
+
+# Change the value
+
+fruits[0] = 'Bluberries'
+print(fruits) # output ['Bluberries', 'Oranges', 'Grapes', 'Pears']
