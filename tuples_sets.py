@@ -57,5 +57,9 @@ fruits_set = {'Apples', 'Oranges', 'Mango'}
 
 # Add an element to the set
 
-fruits_set.add('Grape')
-print('Grape' in fruits_set) # output: True
+# fruits_set.add('Grape')
+# print('Grape' in fruits_set) # output: True
+
+# Remove an element from the set
+fruits_set.remove('Apples')
+print(fruits_set) # output : {'Oranges', 'Mango'}
