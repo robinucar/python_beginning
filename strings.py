@@ -30,5 +30,8 @@ s = 'Hello, World!'
 # print(s.swapcase())
 
 # Get length
-print(len(s))
+# print(len(s))
+
+# Replace
+print(s.replace('World', 'everyone')) # output 'Hello, everyone!
 
