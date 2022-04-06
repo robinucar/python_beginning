@@ -15,5 +15,11 @@ fruits = ['Apples', 'Oranges', 'Grapes', 'Pears']
 # print(len(fruits)) # output: 4
 
 # Append to list
-fruits.append('Mangos')
+# fruits.append('Mangos')
+# print(fruits) # output ['Apples', 'Oranges', 'Grapes', 'Pears', 'Mangos']
+
+# Remove an element from the list
+
+fruits.remove('Grapes')
 print(fruits)
+
