@@ -13,4 +13,9 @@ age = 34
 
 # F-Strings (3.6+ versions)
 
-print(f'My name is {name} and I am {age} years old...')
+# print(f'My name is {name} and I am {age} years old...')
+
+
+s = 'Hello, World!'
+# Capitalize String
+print(s.capitalize())
