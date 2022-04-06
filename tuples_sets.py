@@ -27,5 +27,9 @@ fruits = ('Apples', 'Oranges', 'Grapes')
 
 # Delete tupple
 
-del fruits
-print(fruits) # output : NameError: name 'fruits' is not defined - It was deleted -
+# del fruits
+# print(fruits) # output : NameError: name 'fruits' is not defined - It was deleted -
+
+# Get length
+
+print(len(fruits)) # output: 3
