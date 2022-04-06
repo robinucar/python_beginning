@@ -61,5 +61,9 @@ fruits_set = {'Apples', 'Oranges', 'Mango'}
 # print('Grape' in fruits_set) # output: True
 
 # Remove an element from the set
-fruits_set.remove('Apples')
-print(fruits_set) # output : {'Oranges', 'Mango'}
+# fruits_set.remove('Apples')
+# print(fruits_set) # output : {'Oranges', 'Mango'}
+
+# Clear the set
+fruits_set.clear()
+print(fruits_set) # output: set() -Empty set-
