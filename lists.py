@@ -37,5 +37,9 @@ fruits = ['Apples', 'Oranges', 'Grapes', 'Pears']
 # print(fruits) # output: ['Pears', 'Grapes', 'Oranges', 'Apples']
 
 # Sort List
-fruits.sort
-print(fruits) # output: ['Apples', 'Oranges', 'Grapes', 'Pears']
+# fruits.sort
+# print(fruits) # output: ['Apples', 'Oranges', 'Grapes', 'Pears']
+
+#Reverse Sort
+fruits.sort(reverse=True)
+print(fruits) # output: ['Pears', 'Oranges', 'Grapes', 'Apples']
