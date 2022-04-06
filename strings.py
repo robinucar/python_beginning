@@ -51,4 +51,7 @@ s = 'Hello, World!'
 # print(s.split()) # output ['Hello,', 'World!']
 
 # Find the Position
-print(s.find('r')) # output 9
+# print(s.find('r')) # output 9
+
+# Is all alphanumeric
+print(s.isalnum()) # output false
