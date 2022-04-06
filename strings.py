@@ -41,5 +41,8 @@ s = 'Hello, World!'
 # print(s.count('H')) # output 1
 
 # Starts with
-print(s.startswith('hello')) # output false - case sensetive -
-print(s.startswith('Hello')) # output true
+# print(s.startswith('hello')) # output false - case sensetive -
+# print(s.startswith('Hello')) # output true
+
+# Ends with
+print(s.endswith('!')) # output true
