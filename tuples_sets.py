@@ -1,3 +1,5 @@
+# TUPLE
+
 # Create tuple
 
 fruits = ('Apples', 'Oranges', 'Grapes')
@@ -32,4 +34,19 @@ fruits = ('Apples', 'Oranges', 'Grapes')
 
 # Get length
 
-print(len(fruits)) # output: 3
+# print(len(fruits)) # output: 3
+
+
+# SET
+
+# Create set
+
+fruits_set = {'Apples', 'Oranges', 'Mango'}
+
+# or using constructor
+
+fruits_set1 = set(('Apples', 'Oranges', 'Mango'))
+
+print(fruits_set, type(fruits_set))
+
+print(fruits_set1, type(fruits_set1))
