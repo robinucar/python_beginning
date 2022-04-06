@@ -22,5 +22,10 @@ fruits = ('Apples', 'Oranges', 'Grapes')
 # print(fruits[1])
 
 # Cannot change the value
-fruits[0] = 'Pears'
-print(fruits) # output: TypeError: 'tuple' object does not support item assignment
+# fruits[0] = 'Pears'
+# print(fruits) # output: TypeError: 'tuple' object does not support item assignment
+
+# Delete tupple
+
+del fruits
+print(fruits) # output : NameError: name 'fruits' is not defined - It was deleted -
