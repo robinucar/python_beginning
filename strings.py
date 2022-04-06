@@ -57,7 +57,10 @@ s = 'Hello, World!'
 # print(s.isalnum()) # output false
 
 # Is all alphabetic
-print(s.isalpha()) # output false -empty space and , and ! - 
+# print(s.isalpha()) # output false -empty space and , and ! - 
 
-s1 = 'HelloWorld'
-print(s1.isalpha()) # output true
+# s1 = 'HelloWorld'
+# print(s1.isalpha()) # output true
+
+# Is all numeric
+print(s.isnumeric()) # output false
