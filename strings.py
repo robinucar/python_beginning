@@ -24,5 +24,8 @@ s = 'Hello, World!'
 # print(s.upper())
 
 # Make all lower
-print(s.lower())
+# print(s.lower())
+
+# Swap case
+print(s.swapcase())
 
