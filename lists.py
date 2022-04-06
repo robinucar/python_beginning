@@ -20,6 +20,10 @@ fruits = ['Apples', 'Oranges', 'Grapes', 'Pears']
 
 # Remove an element from the list
 
-fruits.remove('Grapes')
-print(fruits)
+# fruits.remove('Grapes')
+# print(fruits) # output: ['Apples', 'Oranges', 'Pears']
+
+# Insert into position
+fruits.insert(2, 'Strawberries')
+print(fruits) # output ['Apples', 'Oranges', 'Strawberries', 'Grapes', 'Pears']
 
