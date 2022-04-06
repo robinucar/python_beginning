@@ -11,5 +11,9 @@ fruits = ['Apples', 'Oranges', 'Grapes', 'Pears']
 # # Get a value by index
 # print(fruits[1]) # output: Oranges
 
-# Get the length
-print(len(fruits)) # output: 4
+# # Get the length
+# print(len(fruits)) # output: 4
+
+# Append to list
+fruits.append('Mangos')
+print(fruits)
