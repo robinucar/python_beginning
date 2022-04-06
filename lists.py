@@ -29,6 +29,10 @@ fruits = ['Apples', 'Oranges', 'Grapes', 'Pears']
 
 # Remove with pop
 
-fruits.pop(2)
-print(fruits)
+# fruits.pop(2)
+# print(fruits) # output: ['Apples', 'Oranges', 'Pears']
+
+# Reverse List
+fruits.reverse()
+print(fruits) # output: ['Pears', 'Grapes', 'Oranges', 'Apples']
 
