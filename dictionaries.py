@@ -18,3 +18,7 @@ person = {
 # Get Value
 
 print(person['first_name']) # output: Robin Melsa
+
+# Get value II Way
+
+print(person.get('last_name'))
