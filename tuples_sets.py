@@ -69,5 +69,8 @@ fruits_set = {'Apples', 'Oranges', 'Mango'}
 # print(fruits_set) # output: set() -Empty set-
 
 # Delete set
-del(fruits_set)
-print(fruits_set) # output: NameError: name 'fruits_set' is not defined - It was deleted -
+# del(fruits_set)
+# print(fruits_set) # output: NameError: name 'fruits_set' is not defined - It was deleted -
+
+fruits_set.add('Apples')
+print(fruits_set)
