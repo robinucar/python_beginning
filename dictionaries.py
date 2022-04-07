@@ -53,5 +53,8 @@ person = {
 # print(person) # output {'first_name': 'Robin Melsa'}
 
 # Clear dict
-person.clear()
-print(person) # output {} - Empty dict -
+# person.clear()
+# print(person) # output {} - Empty dict -
+
+# Get the length
+print(len(person)) # output 3
