@@ -47,7 +47,11 @@ person = {
 # del(person['age'])
 # print(person) # output {'first_name': 'Robin Melsa', 'last_name': 'Winters'}
 
-# Remove Item II way
+# # Remove Item II way
 
 # person.pop('last_name')
 # print(person) # output {'first_name': 'Robin Melsa'}
+
+# Clear dict
+person.clear()
+print(person) # output {} - Empty dict -
