@@ -57,4 +57,20 @@ person = {
 # print(person) # output {} - Empty dict -
 
 # Get the length
-print(len(person)) # output 3
+# print(len(person)) # output 3
+
+
+# List of dict
+
+people = [
+   {'name': 'Robin', 'age': 34},
+   {'name': 'Lisa', 'age': 31},
+   {'name': 'Kathy', 'age': 32}
+]
+
+print(people) # output: [{'name': 'Robin', 'age': 34}, {'name': 'Lisa', 'age': 31}, {'name': 'Kathy', 'age': 32}]
+print(people[0]) # output: {'name': 'Robin', 'age': 34}
+print(people[1]) # output: {'name': 'Lisa', 'age': 31}
+print(people[2]) # output: {'name': 'Kathy', 'age': 32}
+print(people[0]['name']) # output Robin
+# print(people[3]) # IndexError: list index out of range - First index is 0 -
