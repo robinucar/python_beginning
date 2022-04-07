@@ -42,7 +42,12 @@ person = {
 # print(person2)
 # print(person)
 
-# Remove Item
+# Remove Item I way
 
-del(person['age'])
-print(person) # output {'first_name': 'Robin Melsa', 'last_name': 'Winters'}
+# del(person['age'])
+# print(person) # output {'first_name': 'Robin Melsa', 'last_name': 'Winters'}
+
+# Remove Item II way
+
+# person.pop('last_name')
+# print(person) # output {'first_name': 'Robin Melsa'}
