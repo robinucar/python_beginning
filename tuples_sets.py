@@ -72,5 +72,6 @@ fruits_set = {'Apples', 'Oranges', 'Mango'}
 # del(fruits_set)
 # print(fruits_set) # output: NameError: name 'fruits_set' is not defined - It was deleted -
 
-fruits_set.add('Apples')
-print(fruits_set)
+# Cannot add an element twice
+# fruits_set.add('Apples')
+# print(fruits_set) # output: {'Oranges', 'Apples', 'Mango'} - no error, but not adding an element twice -
