@@ -36,4 +36,8 @@ person = {
 
 # Copy dict
 person2 = person.copy()
+print(person2) # output {'first_name': 'Robin Melsa', 'last_name': 'Winters', 'age': 34}
+
+person2['city'] = 'London'
 print(person2)
+print(person)
