@@ -29,7 +29,11 @@ person = {
 # print(person) # output {'first_name': 'Robin Melsa', 'last_name': 'Winters', 'age': 34, 'phone': '555-555-5555'}
 
 # Get dict keys
-print(person.keys()) # output dict_keys(['first_name', 'last_name', 'age'])
+# print(person.keys()) # output dict_keys(['first_name', 'last_name', 'age'])
 
 # Get dict items
-print(person.items()) # output dict_items([('first_name', 'Robin Melsa'), ('last_name', 'Winters'), ('age', 34)])
+# print(person.items()) # output dict_items([('first_name', 'Robin Melsa'), ('last_name', 'Winters'), ('age', 34)])
+
+# Copy dict
+person2 = person.copy()
+print(person2)
