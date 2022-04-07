@@ -8,9 +8,16 @@ z = 50
 
 # If / else
 
-if x > z: 
-    print(f'{x} is greater than {z}')
-else:
-    print(f'{z} is greater than {y}') # output: 50 is greater than 5
+# if x > z:
+#     print(f'{x} is greater than {z}')
+# else:
+#     print(f'{z} is greater than {y}') # output: 50 is greater than 5
 
-    
+
+# if / elif / else
+if x > z:
+    print(f'{x} is greater than {z}')
+elif x < z:
+    print(f'{z} is greater than {y}')  # output: 50 is greater than 5
+else:
+    print(f'{x} is equal to {z}')
