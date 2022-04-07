@@ -24,6 +24,12 @@ person = {
 # print(person.get('last_name')) # output Winters
 
 # Add key/value
-person['phone'] = '555-555-5555'
-print(person.get('phone')) # output 555-555-5555
-print(person) # output {'first_name': 'Robin Melsa', 'last_name': 'Winters', 'age': 34, 'phone': '555-555-5555'}
+# person['phone'] = '555-555-5555'
+# print(person.get('phone')) # output 555-555-5555
+# print(person) # output {'first_name': 'Robin Melsa', 'last_name': 'Winters', 'age': 34, 'phone': '555-555-5555'}
+
+# Get dict keys
+print(person.keys()) # output dict_keys(['first_name', 'last_name', 'age'])
+
+# Get dict items
+print(person.items()) # output dict_items([('first_name', 'Robin Melsa'), ('last_name', 'Winters'), ('age', 34)])
