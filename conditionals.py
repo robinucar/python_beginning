@@ -15,9 +15,16 @@ z = 50
 
 
 # if / elif / else
-if x > z:
-    print(f'{x} is greater than {z}')
-elif x < z:
-    print(f'{z} is greater than {y}')  # output: 50 is greater than 5
-else:
-    print(f'{x} is equal to {z}')
+# if x > z:
+#     print(f'{x} is greater than {z}')
+# elif x < z:
+#     print(f'{z} is greater than {y}')  # output: 50 is greater than 5
+# else:
+#     print(f'{x} is equal to {z}')
+
+
+# Nested if
+
+if x > 2:
+    if x <= 10:
+        print('x is greater than 2 or less than or equal to 10') # output : x is greater than 2 or less than or equal to 10
