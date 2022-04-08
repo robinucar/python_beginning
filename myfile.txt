@@ -1,1 +1,1 @@
-I Love Python. I am learning Python.
+I Love Python. I am learning Python. I also would like to learn Django.
