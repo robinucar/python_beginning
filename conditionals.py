@@ -1,3 +1,6 @@
+from operator import not_
+
+
 x = 10
 y = 5
 z = 50
@@ -25,6 +28,22 @@ z = 50
 
 # Nested if
 
-if x > 2:
-    if x <= 10:
-        print('x is greater than 2 or less than or equal to 10') # output : x is greater than 2 or less than or equal to 10
+# if x > 2:
+#     if x <= 10:
+#         print('x is greater than 2 or less than or equal to 10') # output : x is greater than 2 or less than or equal to 10
+
+
+# Logical Operators (and, or, not) - Used to combine conditional statements
+
+# and
+if x > 2 and x <= 10:
+    print('x is greater than 2 and less than or equal to 10')
+
+# or
+if x > 2 or x <= 10:
+    print('x is greater than 2 or less than or equal to 10')
+
+# not
+if not(x == y):
+    print(f'{x} is not equal {y}')
+
