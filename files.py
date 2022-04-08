@@ -8,3 +8,11 @@ myFile = open('myfile.txt', 'w')
 print('Name: ', myFile.name) # output:  Name:  myfile.txt
 print('Is Closed: ', myFile.closed) # output: Is Closed:  False
 print('Opening Mode: ', myFile.mode) # output: Opening Mode:  w
+
+# Write to file
+myFile.write('I Love Python. ')
+myFile.write('I am learning Python.')
+
+# Close file
+myFile.close()
+print('Is Closed: ', myFile.closed) # output: Is Closed:  True
