@@ -2,21 +2,30 @@
 # There are core python modules, modules can be install using the pip package manager
 # (including Django) as well as custom modules
 
-# import a core module
-import datetime
+# # import a core module
+# import datetime
 
-today = datetime.date.today()
-print(today) # output: 2022-04-08
+# today = datetime.date.today()
+# print(today) # output: 2022-04-08
 
-# or
-from datetime import date
-today = date.today()
-print(today) # output: 2022-04-08
+# # or
+# from datetime import date
+# today = date.today()
+# print(today) # output: 2022-04-08
 
-# Pip module
-from camelcase import CamelCase
+# # Pip module
+# from camelcase import CamelCase
 
-c = CamelCase()
-print(c.hump('hello, i am robin')) # output: Hello, I Am Robin
+# c = CamelCase()
+# print(c.hump('hello, i am robin')) # output: Hello, I Am Robin
+
+# Import Custom Module
+
+from validator import validate_email
+email = "test@test.com"
+if validate_email(email):
+    print('Email is valid')
+else:                            # output: Email is valid
+    print('Email is not valid')
 
 
