@@ -54,14 +54,32 @@ z = 50
 numbers = [1,2,3,4,5,6,7,8,9,10]
 
 # in
-if x in numbers:
-    print(x in numbers)
+# if x in numbers:
+#     print(x in numbers) output: True
 
 # in
-if y in numbers:
-    print(y in numbers)
+# if y in numbers:
+#     print(y in numbers) output: True
 
 # not in
-if z not in numbers:
-    print(z not in numbers)
+# if z not in numbers:
+#     print(z not in numbers) # output: True
 
+# Identity Operators (is, is not) - Compare the objects, 
+# not if they are equal, but if they actually the same object
+# with the same memory location
+
+
+
+a = 20
+b = 20
+c = 21
+
+# is
+if a is b:
+    print(a is b) # output: True 
+
+
+# is not
+if c is not b and c is not b:
+    print(c is not b and c is not a) # output : True
